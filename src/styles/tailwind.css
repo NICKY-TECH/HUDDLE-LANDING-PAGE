@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Blinker:wght@600&family=Lato:ital,wght@1,300&family=Manrope:wght@400;500&family=Open+Sans:wght@400;700&family=Outfit:wght@400;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700;1,800&family=Roboto:ital,wght@0,500;1,400&family=Rubik:wght@400;500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* * {
+  border: 2px solid red;
+} */
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.page {
+  @apply grid grid-rows-6 w-full h-full;
+  height: 100%;
+}
+
+.section-one {
+  background-image: url("../images/bg-hero-desktop.svg");
+  background-color: hsl(193, 100%, 96%);
+  @apply row-span-1 grid grid-rows-6;
+}
+
+.nav {
+  @apply row-span-2 flex justify-between mt-6 mx-8;
+}
+
+.main {
+  @apply row-span-4 flex justify-around;
+}
+
+.article-text {
+  @apply mt-11;
+}
+
+.logo-container {
+  display: inline-block;
+}
+
+.try {
+  background-color: rgb(255, 255, 255);
+  /* border: 2px solid rgba(0, 0, 0, 0.6); */
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  width: 200px;
+  height: 60px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  @apply hover:cursor-pointer;
+}
+
+.get-started {
+  width: 200px;
+  height: 60px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: rgb(255, 255, 255);
+  background-color: hsl(322, 100%, 66%);
+  @apply hover:cursor-pointer;
+}
+
+.get-started:hover {
+  background-color: hsl(322, 100%, 66%, 0.7);
+}
+
+.section-two {
+  @apply row-span-2 flex flex-col gap-7 py-32 items-center flex-shrink;
+}
+
+/* .section-two:first-child{
+  @apply mt-10
+} */
+
+.section-three {
+  @apply row-span-3;
+}
+
+/* .artilce-text {
+  @apply col-span-6;
+} */
+
+.mock-up {
+  width: 600px;
+  height: 350px;
+}
+
+.section-card {
+  @apply flex justify-between items-center w-4/5 pl-8 py-3 pr-4 flex-shrink;
+  /* border: 2px solid hsl(208, 11%, 55%); */
+  box-shadow: 0px 0px 8px rgba(192, 188, 188, 0.3);
+}
+
+/* .card{
+  border: 2px solid hsl(208, 11%, 55%);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+} */
+
+/* .mock-up img {
+  object-fit: cover;
+  width: 600px;
+  height: inherit;
+} */
+
+.card-container {
+  @apply w-full flex justify-center;
+  position: relative;
+}
+
+.footer-card {
+  box-shadow: 0px 0px 8px rgba(192, 188, 188, 0.3);
+  background-color: rgb(255, 255, 255);
+  @apply w-2/5 p-16;
+  position: absolute;
+  top: -90px;
+}
+
+footer {
+  background-color: hsl(192, 100%, 9%);
+  @apply font-op;
+}
+
+.footer-content {
+  @apply mt-52 w-5/6 mx-auto;
+}
+
+.footer-inner-content {
+  @apply flex flex-col gap-8;
+}
+
+.second-section-inner-content {
+  @apply flex justify-between;
+}
+
+ul li {
+  @apply flex gap-3 mb-5 text-white;
+}
+
+.icon-list {
+  @apply flex gap-5;
+}
+
+.copy-right {
+  @apply text-white flex justify-end;
+}
+
+h1 {
+  color: hsl(192, 100%, 9%);
+  @apply font-bold text-lg font-po;
+  font-size: 2.3rem;
+}
+
+.title-subsection {
+  color: hsl(192, 100%, 9%);
+  @apply font-bold text-lg font-po;
+  font-size: 1.5rem;
+}
+
+.body-subsection {
+  @apply w-3/6 mx-auto font-op;
+  color: hsla(192, 100%, 9%, 0.5);
+}
+
+button {
+  @apply font-op;
+}
+
+.footer-icon:hover {
+  color: hsl(322, 100%, 66%);
+  cursor: pointer;
+}
+
+.footer-links li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media (min-width: 483px) and (max-width: 932px) {
+  .footer-content {
+    @apply mt-64;
+  }
+  .footer-card {
+    @apply w-9/12;
+  }
+}
+
+@media (max-width: 480px) {
+  .main,
+  .section-card {
+    @apply flex-col gap-3;
+  }
+
+  footer {
+    @apply flex flex-col gap-3;
+  }
+  .second-section-inner-content {
+    @apply flex flex-col;
+  }
+
+  .footer-content {
+    @apply items-center;
+  }
+  .icon-list {
+    @apply w-full items-center justify-center;
+  }
+  .copy-right {
+    @apply justify-center;
+  }
+
+  .footer-card {
+    @apply w-11/12;
+  }
+  .footer-content {
+    @apply mt-56;
+  }
+  /* .body-subsection {
+    font-size: 1.1rem;
+  } */
+}
