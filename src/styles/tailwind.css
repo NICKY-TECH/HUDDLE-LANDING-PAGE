@@ -21,7 +21,7 @@ html {
 .section-one {
   background-image: url("../images/bg-hero-desktop.svg");
   background-color: hsl(193, 100%, 96%);
-  @apply row-span-1 grid grid-rows-1;
+  @apply row-span-1 grid grid-rows-1 px-9;
 }
 
 .nav {
