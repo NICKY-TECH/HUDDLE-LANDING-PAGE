@@ -15,7 +15,7 @@ html {
 } */
 
 .page {
-  @apply grid grid-rows-3;
+  @apply grid grid-rows-1;
 }
 
 .section-one {
