@@ -25,11 +25,11 @@ html {
 }
 
 .nav {
-  @apply row-span-1 flex justify-between mt-6 mx-8;
+  @apply row-span-1 flex justify-between my-6 mx-8;
 }
 
 .main {
-  @apply row-span-1 flex justify-around;
+  @apply row-span-1 flex justify-around pb-36;
 }
 
 .article-text {
