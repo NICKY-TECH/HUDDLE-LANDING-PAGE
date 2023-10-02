@@ -7,11 +7,11 @@
 /* * {
   border: 2px solid red;
 } */
-
+/* 
 body,
 html {
   width: 100%;
-}
+} */
 
 .page {
   @apply grid grid-rows-6 w-full h-full;
