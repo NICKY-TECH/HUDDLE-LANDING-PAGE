@@ -14,13 +14,13 @@ html {
 }
 
 .page {
-  @apply grid grid-rows-4 w-full h-auto;
+  @apply grid grid-rows-3 w-full h-auto;
 }
 
 .section-one {
   background-image: url("../images/bg-hero-desktop.svg");
   background-color: hsl(193, 100%, 96%);
-  @apply row-span-2 grid grid-rows-6;
+  @apply row-span-1 grid grid-rows-6;
 }
 
 .nav {
