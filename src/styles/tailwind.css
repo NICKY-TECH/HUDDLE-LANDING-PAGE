@@ -7,11 +7,12 @@
 /* * {
   border: 2px solid red;
 } */
-/* 
+
 body,
 html {
   width: 100%;
-} */
+  height: 100%;
+}
 
 .page {
   @apply grid grid-rows-6 w-full h-full;
@@ -21,7 +22,7 @@ html {
 .section-one {
   background-image: url("../images/bg-hero-desktop.svg");
   background-color: hsl(193, 100%, 96%);
-  @apply row-span-1 grid grid-rows-6;
+  @apply row-span-2 grid grid-rows-6;
 }
 
 .nav {
@@ -70,7 +71,7 @@ html {
 }
 
 .section-two {
-  @apply row-span-2 flex flex-col gap-7 py-32 items-center flex-shrink;
+  @apply row-span-3 flex flex-col gap-7 py-32 items-center flex-shrink;
 }
 
 /* .section-two:first-child{
@@ -78,7 +79,7 @@ html {
 } */
 
 .section-three {
-  @apply row-span-3;
+  @apply row-span-1;
 }
 
 /* .artilce-text {
