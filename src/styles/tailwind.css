@@ -29,7 +29,7 @@ html {
 }
 
 .main {
-  @apply row-span-1 flex justify-around pb-36;
+  @apply row-span-1 flex justify-around pb-36 px-5;
 }
 
 .article-text {
