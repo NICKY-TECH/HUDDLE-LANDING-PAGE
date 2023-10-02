@@ -522,6 +522,9 @@ video {
 .mt-10{
   margin-top: 2.5rem;
 }
+.mt-2{
+  margin-top: 0.5rem;
+}
 .mt-32{
   margin-top: 8rem;
 }
@@ -596,6 +599,9 @@ video {
 }
 .resize{
   resize: both;
+}
+.grid-rows-3{
+  grid-template-rows: repeat(3, minmax(0, 1fr));
 }
 .grid-rows-6{
   grid-template-rows: repeat(6, minmax(0, 1fr));
@@ -707,19 +713,19 @@ html {
   display: grid;
   height: auto;
   width: 100%;
-  grid-template-rows: repeat(6, minmax(0, 1fr));
+  grid-template-rows: repeat(3, minmax(0, 1fr));
 }
 
 .section-one {
   background-image: url("../images/bg-hero-desktop.svg");
   background-color: hsl(193, 100%, 96%);
-  grid-row: span 2 / span 2;
+  grid-row: span 1 / span 1;
   display: grid;
-  grid-template-rows: repeat(6, minmax(0, 1fr));
+  grid-template-rows: repeat(2, minmax(0, 1fr));
 }
 
 .nav{
-  grid-row: span 2 / span 2;
+  grid-row: span 1 / span 1;
   margin-left: 2rem;
   margin-right: 2rem;
   margin-top: 1.5rem;
@@ -728,14 +734,15 @@ html {
 }
 
 .main{
-  grid-row: span 4 / span 4;
+  grid-row: span 1 / span 1;
   display: flex;
   justify-content: space-around;
+  margin-top:-650px;
 }
 
-.article-text{
-  margin-top: 2.75rem;
-}
+/* .article-text {
+  @apply mt-11;
+} */
 
 .logo-container {
   display: inline-block;
@@ -774,7 +781,7 @@ html {
 }
 
 .section-two{
-  grid-row: span 3 / span 3;
+  grid-row: span 1 / span 1;
   display: flex;
   flex-shrink: 1;
   flex-direction: column;

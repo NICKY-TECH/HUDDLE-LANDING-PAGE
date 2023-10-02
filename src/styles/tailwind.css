@@ -20,20 +20,21 @@ html {
 .section-one {
   background-image: url("../images/bg-hero-desktop.svg");
   background-color: hsl(193, 100%, 96%);
-  @apply row-span-1 grid grid-rows-6;
+  @apply row-span-1 grid grid-rows-2;
 }
 
 .nav {
-  @apply row-span-2 flex justify-between mt-6 mx-8;
+  @apply row-span-1 flex justify-between mt-6 mx-8;
 }
 
 .main {
-  @apply row-span-4 flex justify-around;
+  @apply row-span-1 flex justify-around;
+  margin-top:-650px;
 }
 
-.article-text {
+/* .article-text {
   @apply mt-11;
-}
+} */
 
 .logo-container {
   display: inline-block;
