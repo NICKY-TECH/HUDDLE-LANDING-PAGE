@@ -32,9 +32,9 @@ html {
   margin-top:-650px;
 }
 
-/* .article-text {
+.article-text {
   @apply mt-11;
-} */
+}
 
 .logo-container {
   display: inline-block;
