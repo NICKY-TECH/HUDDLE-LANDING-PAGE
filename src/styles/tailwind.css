@@ -14,8 +14,7 @@ html {
 }
 
 .page {
-  @apply grid grid-rows-6 w-full h-full;
-  height: auto;
+  @apply grid grid-rows-6 w-full h-auto;
 }
 
 .section-one {
