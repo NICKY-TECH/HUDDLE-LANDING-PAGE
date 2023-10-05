@@ -15,7 +15,7 @@ html {
 } */
 
 .page {
-  @apply grid grid-rows-1 overflow-y-hidden;
+  @apply grid grid-rows-1 overflow-y-hidden h-full;
 }
 
 .section-one {
