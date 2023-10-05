@@ -86,13 +86,13 @@ function Footer() {
             &copy; Copyright 2018 Huddle. All rights reserved.
             <p class="attribution">
               Challenge by{" "}
-              <Link
+              {/* <Link
                 to="https://www.frontendmentor.io?ref=challenge"
                 target="_blank"
               >
                 Frontend Mentor
-              </Link>
-              . Coded by <Link to="#">ONYIBE JUSTINA </Link>.
+              </Link> */}
+              . Coded by <Link to="https://github.com/NICKY-TECH/HUDDLE-LANDING-PAGE">ONYIBE JUSTINA </Link>.
             </p>
           </div>
         </div>
