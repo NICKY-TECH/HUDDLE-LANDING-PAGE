@@ -145,7 +145,7 @@ ul li {
 }
 
 .copy-right {
-  @apply text-white flex justify-end;
+  @apply text-white flex justify-end pb-2;
 }
 
 h1 {
