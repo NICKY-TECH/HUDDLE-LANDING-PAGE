@@ -86,11 +86,11 @@ html {
 
 .mock-up {
   width: 600px;
-  /* height: 350px; */
+  height: 350px;
 }
 
 .section-card {
-  @apply flex justify-between items-center w-4/5 pl-8 py-3 pr-4 flex-shrink;
+  @apply flex justify-between items-center w-4/5 pl-8 py-3 pr-4;
   /* border: 2px solid hsl(208, 11%, 55%); */
   box-shadow: 0px 0px 8px rgba(192, 188, 188, 0.3);
 }
