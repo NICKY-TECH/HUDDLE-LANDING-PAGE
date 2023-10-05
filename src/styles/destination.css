@@ -604,6 +604,9 @@ video {
 .resize{
   resize: both;
 }
+.grid-rows-1{
+  grid-template-rows: repeat(1, minmax(0, 1fr));
+}
 .grid-rows-3{
   grid-template-rows: repeat(3, minmax(0, 1fr));
 }
@@ -717,6 +720,7 @@ html {
 .page{
   display: grid;
   grid-template-rows: repeat(1, minmax(0, 1fr));
+  overflow-y: hidden;
 }
 
 .section-one {
