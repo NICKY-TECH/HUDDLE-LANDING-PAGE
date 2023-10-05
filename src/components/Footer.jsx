@@ -5,6 +5,7 @@ import call from "../images/icon-phone.svg";
 import email from "../images/icon-email.svg";
 import { CiFacebook } from "react-icons/ci";
 import { TiSocialTwitterCircular } from "react-icons/ti";
+import { Link } from "react-router-dom";
 import { FiInstagram } from "react-icons/fi";
 import { CiInstagram } from "react-icons/ci";
 import Button from "./Button";
@@ -62,15 +63,37 @@ function Footer() {
                     }
                   </li>
                   <li>
-                    {<TiSocialTwitterCircular style={{ fontSize: "30px" }}       className="footer-icon" />}
+                    {
+                      <TiSocialTwitterCircular
+                        style={{ fontSize: "30px" }}
+                        className="footer-icon"
+                      />
+                    }
                   </li>
-                  <li>{<CiInstagram style={{ fontSize: "30px" }}       className="footer-icon"/>}</li>
+                  <li>
+                    {
+                      <CiInstagram
+                        style={{ fontSize: "30px" }}
+                        className="footer-icon"
+                      />
+                    }
+                  </li>
                 </ul>
               </li>
             </ul>
           </div>
           <div className="copy-right">
             &copy; Copyright 2018 Huddle. All rights reserved.
+            <p class="attribution">
+              Challenge by{" "}
+              <Link
+                to="https://www.frontendmentor.io?ref=challenge"
+                target="_blank"
+              >
+                Frontend Mentor
+              </Link>
+              . Coded by <Link to="#">ONYIBE JUSTINA </Link>.
+            </p>
           </div>
         </div>
       </section>
