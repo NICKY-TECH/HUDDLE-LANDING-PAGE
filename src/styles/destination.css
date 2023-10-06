@@ -562,6 +562,9 @@ video {
 .h-full{
   height: 100%;
 }
+.h-screen{
+  height: 100vh;
+}
 .w-1{
   width: 0.25rem;
 }
@@ -727,6 +730,7 @@ html {
 
 .page{
   display: grid;
+  height: 100%;
   grid-template-rows: repeat(1, minmax(0, 1fr));
   overflow-y: hidden;
 }
@@ -963,7 +967,9 @@ button{
     flex-direction: column;
     gap: 0.75rem;
   }
-
+.page{
+    height: 100vh;
+  }
   footer{
     display: flex;
     flex-direction: column;
