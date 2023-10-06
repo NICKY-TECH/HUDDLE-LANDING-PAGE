@@ -730,9 +730,8 @@ html {
 
 .page{
   display: grid;
-  height: 100%;
+  min-height: 100vh;
   grid-template-rows: repeat(1, minmax(0, 1fr));
-  overflow-y: hidden;
 }
 
 .section-one {
