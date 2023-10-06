@@ -5,7 +5,6 @@ import call from "../images/icon-phone.svg";
 import email from "../images/icon-email.svg";
 import { CiFacebook } from "react-icons/ci";
 import { TiSocialTwitterCircular } from "react-icons/ti";
-import { Link } from "react-router-dom";
 import { FiInstagram } from "react-icons/fi";
 import { CiInstagram } from "react-icons/ci";
 import Button from "./Button";
@@ -83,16 +82,16 @@ function Footer() {
             </ul>
           </div>
           <div className="copy-right">
-            &copy; Copyright 2018 Huddle. All rights reserved.
+      <p> &copy; Copyright 2018 Huddle. All rights reserved.</p>
             <p class="attribution">
-              Challenge by{" "}
-              {/* <Link
-                to="https://www.frontendmentor.io?ref=challenge"
+              Challenge by{" "}              
+              <a
+                href="https://www.frontendmentor.io?ref=challenge"
                 target="_blank"
               >
                 Frontend Mentor
-              </Link> */}
-              . Coded by <Link to="https://github.com/NICKY-TECH/HUDDLE-LANDING-PAGE">ONYIBE JUSTINA </Link>.
+              </a>
+              . Coded by <a href="https://github.com/NICKY-TECH/HUDDLE-LANDING-PAGE" target="_blank">ONYIBE JUSTINA </a>.
             </p>
           </div>
         </div>
