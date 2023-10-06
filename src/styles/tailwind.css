@@ -193,7 +193,9 @@ button {
   .section-card {
     @apply flex-col gap-3;
   }
-
+.page{
+  @apply h-screen
+}
   footer {
     @apply flex flex-col gap-3;
   }
