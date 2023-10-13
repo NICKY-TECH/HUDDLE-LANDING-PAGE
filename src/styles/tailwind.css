@@ -20,7 +20,7 @@ html {
 .section-one {
   background-image: url("../images/bg-hero-desktop.svg");
   background-color: hsl(193, 100%, 96%);
-  @apply row-span-1 grid grid-rows-1;
+  @apply grid grid-rows-1;
 }
 
 .nav {
@@ -69,16 +69,16 @@ html {
 }
 
 .section-two {
-  @apply row-span-1 flex flex-col gap-7 py-32 items-center flex-shrink;
+  @apply flex flex-col gap-7 py-32 items-center flex-shrink;
 }
 
 /* .section-two:first-child{
   @apply mt-10
 } */
 
-.section-three {
+/* .section-three {
   @apply row-span-1;
-}
+} */
 
 /* .artilce-text {
   @apply col-span-6;
