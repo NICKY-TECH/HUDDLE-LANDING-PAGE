@@ -11,10 +11,11 @@
  body,
 html {
   height: 100%;
+  width: 100%;
 } 
 
 .page {
-  @apply flex flex-col gap-2;
+  @apply flex flex-col gap-2 w-full;
 }
 
 .section-one {
