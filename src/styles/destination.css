@@ -729,9 +729,9 @@ html {
 } 
 
 .page{
-  display: grid;
-  min-height: 100vh;
-  grid-template-rows: repeat(1, minmax(0, 1fr));
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .section-one {

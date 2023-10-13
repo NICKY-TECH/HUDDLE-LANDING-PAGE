@@ -14,7 +14,7 @@ html {
 } 
 
 .page {
-  @apply grid grid-rows-1 min-h-screen;
+  @apply flex flex-col gap-2;
 }
 
 .section-one {
