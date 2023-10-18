@@ -69,7 +69,7 @@ html {
 }
 
 .section-two {
-  @apply row-span-1 flex flex-col gap-2 items-center flex-shrink md:py-32 md:gap-7  ;
+  @apply row-span-1 flex flex-col gap-2 md:items-center flex-shrink md:py-32 md:gap-7  ;
 }
 
 /* .section-two:first-child{
