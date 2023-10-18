@@ -14,7 +14,7 @@ html {
 } 
 
 .page {
-  @apply grid grid-rows-1 min-h-screen;
+  @apply grid grid-rows-1 h-full;
 }
 
 .section-one {
